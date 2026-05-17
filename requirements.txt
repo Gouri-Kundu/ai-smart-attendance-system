@@ -1,0 +1,18 @@
+# utilities
+numpy
+pandas
+
+# facr recognition
+scikit-learn
+dlib-bin
+git+https://github.com/ageitgey/face_recognition_models  # this is not a python package, used for facial embeddings. 
+setuptools<70.0.0 # since the above one is not a python package --> dwnld this library for installation
+
+# database 
+supabase  # provides database for free around 1.5 / 2 gb whew txt data can easily be stored
+bcrypt  # gives hashing method i.e. suppose change the password to something else so that no one can decode
+
+segno   # to create QR Code
+pillow   # helps in preprocessing (resize, transform, save etc.) the image
+
+streamlit
