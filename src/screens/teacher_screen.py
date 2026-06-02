@@ -200,7 +200,6 @@ def teacher_tab_attendance_records():
 
     for r in records:
         ts= r.get('timestamp')
-        st.write(ts)
 
         data.append({
             "ts_group": ts.split(".")[0] if ts else None,
